@@ -2,7 +2,7 @@
   "expo": {
     "scheme": "dream_one",
     "name": "Dream Furniture",
-    "slug": "dreamfuniture",
+    "slug": "dream-furniture",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.jpg",
@@ -30,12 +30,12 @@
     "plugins": [
       "expo-router"
     ],
+    "owner": "janeforth69s-organization",
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "46a5bfee-ec54-449e-bc8e-1d77ee8d6b83"
+        "projectId": "9a5e0b88-6a35-492c-827e-a0dda1fdf2b3"
       }
-    },
-    "owner": "janeforth69s-organization"
+    }
   }
 }
