@@ -11,30 +11,6 @@ const TabsLayout = () => {
 
   return (
    <UserAuth>
-   {/* <Tabs screenOptions={{headerShown:false,
-  tabBarStyle:{backgroundColor:theme.navBackground,
-                paddingTop:8,
-                height:100
-                },
-  tabBarActiveTintColor:theme.iconColorFocused,
-  tabBarInactiveTintColor:theme.iconColor
-   }}>
-
-
-<Tabs.Screen name="newfeed"  options={{title:"",tabBarIcon:({focused})=>(
-   <Ionicons size={25} name={focused ? "newspaper" : "newspaper-outline"}/>
-)}}/>
-<Tabs.Screen name="furniture"  options={{title:"",tabBarIcon:({focused})=>(
-   <Ionicons size={24} name={focused ? "person" : "person-outline"}/>
-)}}/>
-<Tabs.Screen name="create"  options={{title:"",tabBarIcon:({focused})=>(
-   <Ionicons size={24} name={focused ? "create" : "create-outline"}/>
-)}}/>
-<Tabs.Screen name="profile"  options={{title:"",tabBarIcon:({focused})=>(
-   <Ionicons size={24} name={focused ? "list" : "list-outline"}/>
-)}}/>
-<Tabs.Screen name="furnitures/[id]" options={{href:null}} />
-   </Tabs> */}
    <Tabs
   screenOptions={{
     headerShown: false,

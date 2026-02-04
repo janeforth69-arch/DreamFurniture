@@ -61,9 +61,7 @@ const handleSubmit=async ()=>{
     {error && <Text style={styles.error}>{error}</Text>}
     <Space height={100} />
 {/*  */}
-   <Link href="./login">
-     <ThemedText>go to Login</ThemedText>
-   </Link>
+   <ThemedText>Already have an account? <Link href="./login" style={{color:"#0800ff",fontWeight:900,borderBottomWidth: 1,}}>Login</Link></ThemedText>
 
     </ThemedView>
     </TouchableWithoutFeedback>

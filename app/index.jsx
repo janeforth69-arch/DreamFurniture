@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Image } from 'react-native'
 import { Link } from "expo-router"
 import ThemedView from '../components/ThemedView'
 import ThemedLogo from '../components/ThemedLogo'
+import ThemedButton from '../components/ThemeButton'
 import Space from '../components/Space'
 import ThemedText from '../components/ThemeText'
 
@@ -14,15 +15,18 @@ const Home = () => {
       <ThemedText style={styles.title} title={true}>Note Intro</ThemedText>
       <Space height={50} />
       {/* link */}
-      <Link href="./login" style={styles.link}>
-        <ThemedText>Login</ThemedText>
+     
+      <ThemedButton style={styles.newBtn}>
+      <Link href="./login" >
+        <ThemedText style={styles.linktext}>Login</ThemedText>
       </Link>
-       <Link href="./register" style={styles.link}>
-        <ThemedText>Register</ThemedText>
+      </ThemedButton>
+
+      <ThemedButton style={styles.newBtn}>
+      <Link href="./register">
+        <ThemedText style={styles.linktext}>SignUp</ThemedText>
       </Link>
-      {/* <Link href="./profile" style={styles.link}>
-        <ThemedText>Profile</ThemedText>
-      </Link> */}
+      </ThemedButton>
     </ThemedView>
   )
 }
@@ -45,9 +49,13 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 20
   },
-  link: {
-    borderBottomWidth: 1,
-    marginVertical: 10
+  linktext: {
+    fontSize:20,
+    fontWeight:900,
+    color:"#ffff"
+  },
+  newBtn:{
+    width:200,
+    alignItems:"center"
   }
-
 })

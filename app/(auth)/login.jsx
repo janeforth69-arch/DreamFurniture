@@ -59,9 +59,9 @@ const handleSubmit=async()=>{
     {error && <Text style={styles.error}>{error}</Text>}
     <Space height={100} />
 {/*  */}
-   <Link href="./register">
-     <ThemedText>go to Register</ThemedText>
-   </Link>
+ 
+     <ThemedText>Don't have an account? <Link href="./register" style={{color:"#0800ff",fontWeight:900,borderBottomWidth: 1,}}>Register</Link></ThemedText>
+
     </ThemedView>
     </TouchableWithoutFeedback>
   )
