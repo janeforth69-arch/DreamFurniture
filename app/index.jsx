@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <ThemedView style={styles.container}>
       <ThemedLogo style={styles.img} />
-      <ThemedText style={styles.title} title={true}>Note Intro</ThemedText>
+      <ThemedText style={styles.title} title={true}>Dream Furniture</ThemedText>
       <Space height={50} />
       {/* link */}
      
